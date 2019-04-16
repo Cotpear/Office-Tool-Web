@@ -344,7 +344,8 @@ index-1
 .widget-group { }
 .widget-group ul { }
 .widget-group ul li { line-height: 1.6; margin-bottom: 8px; }
-.widget-group ul li a { font-family: 'FontAwesome'; color: #778191; font-weight: 500; }
+/*.widget-group ul li a { font-family: 'FontAwesome'; color: #778191; font-weight: 500; }*/
+.widget-group ul li a { color: #778191; font-weight: 500; text-decoration: none !important; }
 .widget-group ul li a i { width: 30px; }
 .widget-group ul li a:hover { color: #eb3c00; text-decoration: underline; }
 
