@@ -5,7 +5,8 @@
 /*-----------------------------------
 General css class
 -----------------------------------*/
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Noto+Sans+TC');
+.img_logo { position:relative; top:4px;  }
 body { font-size: 15px; font-family: 'Noto Sans TC','Noto Sans SC', 'Pingfang SC'; line-height: 1.4; color: #778191; background-color: #f4f6f8; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 h1, h2, h3, h4, h5, h6 { margin: 0px 0px 10px 0px; color: #EB3C00; font-weight: 500; }
 h1 { font-size: 32px; line-height: 44px; letter-spacing: -1px; }
