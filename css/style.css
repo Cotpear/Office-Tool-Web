@@ -6,8 +6,10 @@
 /*-----------------------------------
 General css class
 -----------------------------------*/
-.img_logo { position:relative; top:4px;  }
-body { font-size: 15px; font-family: 'Noto Sans TC', 'Noto Sans SC', 'Pingfang SC'; line-height: 1.4; color: #778191; background-color: #f4f6f8; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.img_logo { position:relative; top:4px; }
+.IE{ display:none; }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {.IE{ display:block; } }
+body { font-size: 15px; font-family: 'Noto Sans TC', 'Noto Sans SC', 'Pingfang TC', 'Pingfang SC', 'Microsoft JhengHei', 'FontAwesome', sans-serif; line-height: 1.4; color: #778191; background-color: #f4f6f8; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 h1, h2, h3, h4, h5, h6 { margin: 0px 0px 10px 0px; color: #EB3C00; font-weight: 500; }
 h1 { font-size: 32px; line-height: 44px; letter-spacing: -1px; }
 h2 { font-size: 24px; line-height: 32px; }
@@ -300,9 +302,9 @@ index-1
 .widget-footer ul li a:hover { color: #eb3c00; }
 .tiny-footer { background-color: #16191e; font-size: 12px; padding-top: 10px; padding-bottom: 10px; transform: translateZ(0); }
 .widget-footer { position: relative; padding-left: 20px; line-height: 32px; }
-.widget-footer ul li:before { font-family: 'FontAwesome'; display: block; position: absolute; left: 0; font-size: 15px; color: #778191; content: "\f105"; }
+.widget-footer ul li:before { display: block; position: absolute; left: 0; font-size: 15px; color: #778191; content: "\f105"; text-decoration:none!important;}
 .widget-group ul li { line-height: 1.6; margin-bottom: 8px; }
-.widget-group ul li a { font-family: 'FontAwesome'; color: #778191; font-weight: 500; }
+.widget-group ul li a { color: #778191; font-weight: 500; text-decoration:none!important;}
 .widget-group ul li a i { width: 30px; }
 .widget-group ul li a:hover { color: #eb3c00; text-decoration: underline; }
 
